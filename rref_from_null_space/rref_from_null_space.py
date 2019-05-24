@@ -64,7 +64,7 @@ def main():
 
         B = B.col_insert(i, Matrix([0]))
 
-    # Put null_A into a matrix B. Working on this section right now.
+    # Put null_A into a matrix B.
 
     row = []
 
@@ -90,7 +90,7 @@ def main():
 
         rows_to_add = rows_desired - B_dimensions[0]
         
-        #  Make a row of all zeroes to fill out the rest of the matrix
+        #  Make a row of all zeroes to fill out the rest of the matrix.
 
         adding = zeros(1, B_dimensions[1])
 
